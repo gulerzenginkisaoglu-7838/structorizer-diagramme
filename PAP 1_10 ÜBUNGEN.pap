@@ -1,0 +1,371 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FRAME GUID="2FB25471-B62C-4EE6-BD43-F819C095ACF8" FORMAT="0000" APP_VERSION="2.2.0.8" CHECKSUM="F96C4A70C839F811">
+  <PROJECT FORMAT="1.00" NAME="PAP 1/10 ÜBUNGEN" AUTHOR="Student" CREATED="2026.06.11 15:14:32" MODIFIED="2026.06.12 16:13:24">
+    <DIAGRAMS>
+      <DIAGRAM FORMAT="1.00" ID="0" NAME="PAP 1/10 — Hundealter" CREATED="2026.06.11 15:14:49" MODIFIED="2026.06.12 16:13:24">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="8">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[menschenalter = 14]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[menschenalter = 22]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[PAP 1/10 — Hundealter]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[EINGABE hundealter=input()]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[hundealter ==1?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="8">
+                <TEXT><![CDATA[hundealter ==2?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="19">
+                <TEXT><![CDATA[Formel berechnen
+22 + (hundealter - 2) * 5]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="21">
+                <TEXT><![CDATA[Ausgabe print(menschenalter)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="5" FROM="24" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="24" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="8" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="8" TO="19" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="19" TO="21" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="8" TO="23" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="6" TO="22" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="11" FROM="21" TO="2" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="1" NAME="PAP 2/10 — Begrüßung" CREATED="2026.06.11 15:42:34" MODIFIED="2026.06.12 16:13:24">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="9">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Ausgabe:
+Gute Nacht!]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="17">
+                <TEXT><![CDATA[Ausgabe:
+Guten Morgen!]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Ausgabe:
+Mahlzeit!]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="27">
+                <TEXT><![CDATA[Ausgabe:
+Guten Nachmittag!]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[PAP 2/10 — Begrüßung]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="33">
+                <TEXT><![CDATA[Eingabe :Stunde erzeugen stunde = randint(0, 23)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[stunde >=22
+or stunde < 5?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="13">
+                <TEXT><![CDATA[stunde
+< 11?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[stunde
+< 15?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="23">
+                <TEXT><![CDATA[stunde
+< 18?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="30">
+                <TEXT><![CDATA[Ausgabe:
+Guten Abend!]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="32" FROM="33" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="14" FROM="13" TO="18" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="13" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="12" FROM="6" TO="10" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="16" FROM="13" TO="17" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="18" TO="23" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="18" TO="22" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="24" FROM="23" TO="30" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="23" TO="27" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="31" FROM="30" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="33" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="2" NAME="PAP 3/10 — Portokosten" CREATED="2026.06.12 09:45:34" MODIFIED="2026.06.12 16:13:24">
+        <LAYOUT FORMAT="1.00" COLUMNS="3" ROWS="9">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="10">
+                <TEXT><![CDATA[Ausgabe : porto =
+3.99 €]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="14">
+                <TEXT><![CDATA[Ausgabe : porto =
+2.99 €]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="18">
+                <TEXT><![CDATA[Ausgabe : porto =
+1.99 €]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[PAP 3/10 — Portokosten]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Eingabe : bestellwert = round(random.uniform(1.00, 130.00), 2)]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[bestellwert
+< 40 €?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[bestellwert
+< 70 €?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="16">
+                <TEXT><![CDATA[bestellwert
+< 100 €?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="24">
+                <TEXT><![CDATA[Gesamtbetrag berechnen
+bestellwert + porto]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="22">
+                <TEXT><![CDATA[Ausgabe
+Bestellwert, Porto, Gesamt]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="2" ROW="5">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="20">
+                <TEXT><![CDATA[Ausgabe : porto =
+0 €]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="12" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="16" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="6" TO="10" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="12" TO="14" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="17" FROM="16" TO="24" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="19" FROM="16" TO="18" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="16" TO="20" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="23" FROM="22" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="25" FROM="24" TO="22" TEXT="" />
+        </CONNECTIONS>
+      </DIAGRAM>
+      <DIAGRAM FORMAT="1.00" ID="3" NAME="PAP 4 -10 — Urlaubsanspruch" CREATED="2026.06.12 15:29:31" MODIFIED="2026.06.12 15:29:31">
+        <LAYOUT FORMAT="1.00" COLUMNS="2" ROWS="11">
+          <ENTRIES>
+            <ENTRY COLUMN="0" ROW="3">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="43">
+                <TEXT><![CDATA[Ausgabe urlaub = 30 Tage]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="4">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="44">
+                <TEXT><![CDATA[Ausgabe urlaub = 28 Tage]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="39">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="7">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="45">
+                <TEXT><![CDATA[Ausgabe urlaub += 5 Tage]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="0" ROW="8">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="46">
+                <TEXT><![CDATA[Ausgabe urlaub += 2 Tage]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="0" ANCHOR="True">
+              <FIGURE SUBTYPE="PapTitle" FORMAT="1.00" ID="0">
+                <TEXT><![CDATA[PAP 4 -10 — Urlaubsanspruch]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="1">
+              <FIGURE SUBTYPE="PapStart" FORMAT="1.00" ID="1">
+                <TEXT><![CDATA[Start]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="2">
+              <FIGURE SUBTYPE="PapInput" FORMAT="1.00" ID="4">
+                <TEXT><![CDATA[Eingabe
+name, alter, behinderung, jahre
+input()]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="3">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="6">
+                <TEXT><![CDATA[alter
+< 18?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="4">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="12">
+                <TEXT><![CDATA[alter
+> 55?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="5">
+              <FIGURE SUBTYPE="PapActivity" FORMAT="1.00" ID="19">
+                <TEXT><![CDATA[urlaub = 26 Tage]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="6">
+              <FIGURE SUBTYPE="PapConnector" FORMAT="1.00" ID="35">
+                <TEXT><![CDATA[]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="7">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="25">
+                <TEXT><![CDATA[behinderung
+>= 50%?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="8">
+              <FIGURE SUBTYPE="PapCondition" FORMAT="1.00" ID="30">
+                <TEXT><![CDATA[jahre
+> 10?]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="9">
+              <FIGURE SUBTYPE="PapOutput" FORMAT="1.00" ID="17">
+                <TEXT><![CDATA[Ausgabe
+name + urlaub Tage]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+            <ENTRY COLUMN="1" ROW="10">
+              <FIGURE SUBTYPE="PapEnd" FORMAT="1.00" ID="2">
+                <TEXT><![CDATA[Ende]]></TEXT>
+              </FIGURE>
+            </ENTRY>
+          </ENTRIES>
+        </LAYOUT>
+        <CONNECTIONS>
+          <CONNECTION FORMAT="1.00" ID="3" FROM="1" TO="4" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="5" FROM="4" TO="6" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="7" FROM="6" TO="12" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="13" FROM="12" TO="19" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="21" FROM="43" TO="44" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="41" FROM="44" TO="39" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="18" FROM="17" TO="2" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="20" FROM="19" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="9" FROM="6" TO="43" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="42" FROM="35" TO="25" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="26" FROM="25" TO="30" TEXT="nein" />
+          <CONNECTION FORMAT="1.00" ID="28" FROM="25" TO="45" TEXT="ja" />
+          <CONNECTION FORMAT="1.00" ID="31" FROM="30" TO="17" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="33" FROM="30" TO="46" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="40" FROM="39" TO="35" TEXT="" />
+          <CONNECTION FORMAT="1.00" ID="15" FROM="12" TO="44" TEXT="ja" />
+        </CONNECTIONS>
+      </DIAGRAM>
+    </DIAGRAMS>
+  </PROJECT>
+</FRAME>
